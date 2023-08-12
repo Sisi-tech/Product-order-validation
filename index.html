@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <h2>Product Order Form Validation</h2>
+        <img id="backpack" src="backpack.jpg">
+        <p>The backpack: $<span id="price">39.99</span></p>
+        <label for="quantity">Quantity:</label>
+        <input type="number" id="quantity" value="0" min="0"/>
+        <label for="color">Color:</label>
+        <select id="color">
+            <option value="--">--</option>
+            <option value="white">White Leather</option>
+            <option value="brown">Brown Leather</option>
+            <option value="black">Black Leather</option>
+        </select>
+        <label for="address">Address:</label>
+        <input type="text" id="address" />
+        <label for="city">City:</label>
+        <input type="text" id="city">
+        <label for="state">State:</label>
+        <input type="text" id="state" />
+        <button onclick="checkForm()" id="submit">Submit order</button>
+        <h2 class="hidden" id="status">Order Submitted!</h2>
+        </div>
+    </body>
+</html>

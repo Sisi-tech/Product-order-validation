@@ -1,0 +1,52 @@
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 30%;
+    margin-right: 30%;
+
+}
+
+p {
+    font-size: 18px;
+}
+
+#backpack {
+    width: 300px;
+    height: auto;
+    margin-bottom: 30px;
+}
+
+body input, select {
+    width: 300px;
+}
+
+label {
+    font-size: 18px;
+    text-align: left;
+    width: 300px;
+}
+
+button {
+    border: 1px solid gray;
+    border-radius: 5px;
+    background-color: lavender;
+    width: 160px;
+    margin: 26px;
+    font-size: 18px;
+}
+
+.hidden {
+    display: none;
+}
+
+.error {
+    border: 2px solid red;
+    border-radius: 5px;
+}
+
+#status {
+    color: green;
+    font-size: 24px;
+}
